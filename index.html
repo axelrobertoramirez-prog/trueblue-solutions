@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrueBlue Solutions — Premium Water Filtration</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=League+Spartan:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor" id="cursor">
+        <span class="cursor-text">View</span>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-inner">
+            <a href="#" class="nav-logo">TrueBlue</a>
+            <div class="nav-time" id="nav-time"></div>
+            <ul class="nav-menu">
+                <li><a href="#about" data-underline>About</a></li>
+                <li><a href="#systems" data-underline>Systems</a></li>
+                <li><a href="#technology" data-underline>Technology</a></li>
+                <li><a href="warranty.html" data-underline>Warranty</a></li>
+                <li><a href="#contact" data-underline>Contact</a></li>
+            </ul>
+            <button class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <!-- Background Image -->
+        <div class="hero-bg">
+            <img src="assets/hero-bg.jpg" alt="">
+        </div>
+
+        <!-- Bold Text -->
+        <div class="hero-text-layer">
+            <h1 class="hero-heading" data-animate="heading">
+                <span class="line"><span class="word">Built</span> <span class="word">for</span> <span class="word">Texans,</span></span>
+                <span class="line"><span class="word">by</span> <span class="word">Texans.</span></span>
+            </h1>
+        </div>
+
+        <div class="hero-sub-wrapper">
+            <p class="hero-sub" data-animate="fade">Premium water filtration systems — Made in the USA</p>
+        </div>
+        <div class="hero-scroll">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="section-label" data-animate="fade">(01)</div>
+            <div class="about-grid">
+                <div class="about-content">
+                    <p class="large-text" data-animate="lines">
+                        We're a Texas-based water solutions company dedicated to delivering the purest, cleanest water to homes across the state. Our systems are engineered for performance and built to last a lifetime.
+                    </p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat" data-animate="fade">
+                        <span class="stat-number">10K+</span>
+                        <span class="stat-label">Homes Protected</span>
+                    </div>
+                    <div class="stat" data-animate="fade">
+                        <span class="stat-number">99%</span>
+                        <span class="stat-label">Contaminant Removal</span>
+                    </div>
+                    <div class="stat" data-animate="fade">
+                        <span class="stat-number">Lifetime</span>
+                        <span class="stat-label">Warranty</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Systems Section -->
+    <section class="section section-dark" id="systems">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label" data-animate="fade">(02)</div>
+                <h2 class="section-title" data-animate="heading">
+                    <span class="word">Our</span>
+                    <span class="word">Systems</span>
+                </h2>
+            </div>
+
+            <div class="systems-list">
+                <a href="essentials.html" class="system-item" data-animate="fade">
+                    <div class="system-item-info">
+                        <h3>TrueBlue Essentials</h3>
+                        <p>4-Stage Whole Home Filtration</p>
+                    </div>
+                    <svg width="20" height="20" viewBox="0 0 16 16" fill="none">
+                        <path d="M1 8H15M15 8L8 1M15 8L8 15" stroke="currentColor" stroke-width="1.5"/>
+                    </svg>
+                </a>
+                <a href="pro.html" class="system-item" data-animate="fade">
+                    <div class="system-item-info">
+                        <h3>TrueBlue Pro</h3>
+                        <p>5-Stage Whole Home Filtration</p>
+                    </div>
+                    <svg width="20" height="20" viewBox="0 0 16 16" fill="none">
+                        <path d="M1 8H15M15 8L8 1M15 8L8 15" stroke="currentColor" stroke-width="1.5"/>
+                    </svg>
+                </a>
+                <a href="promax.html" class="system-item" data-animate="fade">
+                    <div class="system-item-info">
+                        <h3>TrueBlue Pro Max</h3>
+                        <p>5-Stage with WiFi & Salt Sensor</p>
+                    </div>
+                    <svg width="20" height="20" viewBox="0 0 16 16" fill="none">
+                        <path d="M1 8H15M15 8L8 1M15 8L8 15" stroke="currentColor" stroke-width="1.5"/>
+                    </svg>
+                </a>
+                <a href="#contact" class="system-item" data-animate="fade">
+                    <div class="system-item-info">
+                        <h3>TrueBlue Drinking System</h3>
+                        <p>Under-Sink Reverse Osmosis</p>
+                    </div>
+                    <svg width="20" height="20" viewBox="0 0 16 16" fill="none">
+                        <path d="M1 8H15M15 8L8 1M15 8L8 15" stroke="currentColor" stroke-width="1.5"/>
+                    </svg>
+                </a>
+                <a href="#contact" class="system-item" data-animate="fade">
+                    <div class="system-item-info">
+                        <h3>Alkaline Filter</h3>
+                        <p>Premium pH Enhancement</p>
+                    </div>
+                    <svg width="20" height="20" viewBox="0 0 16 16" fill="none">
+                        <path d="M1 8H15M15 8L8 1M15 8L8 15" stroke="currentColor" stroke-width="1.5"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Section -->
+    <section class="section" id="technology">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label" data-animate="fade">(03)</div>
+                <h2 class="section-title" data-animate="heading">
+                    <span class="word">The</span>
+                    <span class="word">Technology</span>
+                </h2>
+                <p class="section-subtitle" data-animate="fade">Five proprietary filtration stages working together.</p>
+            </div>
+
+            <div class="tech-grid">
+                <div class="tech-card" data-animate="fade">
+                    <div class="tech-card-image">
+                        <img src="assets/Coconut Shell Carbon.png" alt="Catalytic Coconut Shell Carbon">
+                    </div>
+                    <div class="tech-card-content">
+                        <span class="tech-number">01</span>
+                        <h3>Catalytic Coconut Shell Carbon</h3>
+                        <p>NSF certified catalytic carbon with high microporosity reduces chlorine, taste, and odor for crisp, clean water.</p>
+                    </div>
+                </div>
+                <div class="tech-card" data-animate="fade">
+                    <div class="tech-card-image">
+                        <img src="assets/Ion Exchange Media.png" alt="Ion Exchange Media">
+                    </div>
+                    <div class="tech-card-content">
+                        <span class="tech-number">02</span>
+                        <h3>Ion Exchange Media</h3>
+                        <p>KDF media removes more iron and heavy metals than competitors.</p>
+                    </div>
+                </div>
+                <div class="tech-card" data-animate="fade">
+                    <div class="tech-card-image">
+                        <img src="assets/Bacteriostat.png" alt="Bacteriostat 55">
+                    </div>
+                    <div class="tech-card-content">
+                        <span class="tech-number">03</span>
+                        <h3>Bacteriostat 55</h3>
+                        <p>Inhibits bacteria growth and reduces heavy metals for safer water.</p>
+                    </div>
+                </div>
+                <div class="tech-card" data-animate="fade">
+                    <div class="tech-card-image">
+                        <img src="assets/Vortech.png" alt="Vortech Distribution">
+                    </div>
+                    <div class="tech-card-content">
+                        <span class="tech-number">04</span>
+                        <h3>Vortech Distribution</h3>
+                        <p>Superior backwashing at lower flow rates saves water and extends system life.</p>
+                    </div>
+                </div>
+                <div class="tech-card" data-animate="fade">
+                    <div class="tech-card-image">
+                        <img src="assets/Garnet Filtration.png" alt="Garnet Filtration">
+                    </div>
+                    <div class="tech-card-content">
+                        <span class="tech-number">05</span>
+                        <h3>Garnet Filtration</h3>
+                        <p>High-density filtration media traps fine sediment and particles for crystal-clear water.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Marquee Section -->
+    <section class="marquee-section">
+        <div class="marquee" data-marquee>
+            <div class="marquee-inner">
+                <span>NSF Certified</span>
+                <span>—</span>
+                <span>WQA Gold Seal</span>
+                <span>—</span>
+                <span>Made in USA</span>
+                <span>—</span>
+                <span>Lifetime Warranty</span>
+                <span>—</span>
+                <span>NSF Certified</span>
+                <span>—</span>
+                <span>WQA Gold Seal</span>
+                <span>—</span>
+                <span>Made in USA</span>
+                <span>—</span>
+                <span>Lifetime Warranty</span>
+                <span>—</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Warranty Section -->
+    <section class="section section-dark" id="warranty">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label" data-animate="fade">(04)</div>
+                <h2 class="section-title" data-animate="heading">
+                    <span class="word">Our</span>
+                    <span class="word">Warranty</span>
+                </h2>
+                <p class="section-subtitle" data-animate="fade">Industry-leading protection for your investment.</p>
+            </div>
+
+            <div class="warranty-grid">
+                <a href="warranty.html" class="warranty-item" data-animate="fade">
+                    <span class="warranty-term">Lifetime</span>
+                    <h3>Mineral Tanks</h3>
+                    <p>Fiberglass mineral tank and brine tank covered against manufacturing defects for life.</p>
+                </a>
+                <a href="warranty.html" class="warranty-item" data-animate="fade">
+                    <span class="warranty-term">5 Years</span>
+                    <h3>Control Valves</h3>
+                    <p>Electronic control head, valve body, and internal components fully covered.</p>
+                </a>
+                <a href="warranty.html" class="warranty-item" data-animate="fade">
+                    <span class="warranty-term">1 Year</span>
+                    <h3>RO Systems</h3>
+                    <p>Membranes, storage tank, faucet, and fittings protected.</p>
+                </a>
+            </div>
+            <div style="margin-top: 40px; text-align: center;">
+                <a href="warranty.html" class="btn-primary">
+                    <span class="btn-text">View Full Warranty</span>
+                    <span class="btn-text-hover">See Details</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partners Section -->
+    <section class="section" id="partners">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label" data-animate="fade">(05)</div>
+                <h2 class="section-title" data-animate="heading">
+                    <span class="word">Find</span>
+                    <span class="word">Your</span>
+                    <span class="word">Dealer</span>
+                </h2>
+                <p class="section-subtitle" data-animate="fade">Connect with an authorized TrueBlue dealer in your area.</p>
+            </div>
+
+            <div class="areas-grid">
+                <a href="https://bluemangowater.com" target="_blank" class="area-item" data-animate="fade">
+                    <h3>South Texas</h3>
+                    <p>Laredo, McAllen, Brownsville, Corpus Christi</p>
+                </a>
+                <a href="https://bluemangowater.com" target="_blank" class="area-item" data-animate="fade">
+                    <h3>Central Texas</h3>
+                    <p>San Antonio, Austin, New Braunfels, San Marcos</p>
+                </a>
+                <a href="https://bluemangowater.com" target="_blank" class="area-item area-coming" data-animate="fade">
+                    <h3>Coming Soon</h3>
+                    <p>Houston, Dallas, Fort Worth, El Paso</p>
+                </a>
+            </div>
+            <div style="margin-top: 40px; text-align: center;">
+                <a href="https://bluemangowater.com" target="_blank" class="btn-primary">
+                    <span class="btn-text">Find a Dealer</span>
+                    <span class="btn-text-hover">bluemangowater.com</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section section-contact" id="contact">
+        <div class="container">
+            <div class="contact-content">
+                <h2 class="contact-heading" data-animate="heading">
+                    <span class="word">Ready</span>
+                    <span class="word">for</span>
+                    <span class="word">pure</span>
+                    <span class="word">water?</span>
+                </h2>
+                <p class="contact-sub" data-animate="fade">Get a free water quality assessment and custom quote for your home.</p>
+                <div class="contact-actions" data-animate="fade">
+                    <a href="mailto:info@trueblue.solutions" class="btn-primary">
+                        <span class="btn-text">Get in Touch</span>
+                        <span class="btn-text-hover">info@trueblue.solutions</span>
+                    </a>
+                    <a href="tel:+19566351642" class="btn-secondary">(956) 635-1642</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-brand">
+                    <span class="footer-logo">TrueBlue</span>
+                    <p>Premium water filtration systems.<br>Made in the USA.</p>
+                </div>
+                <nav class="footer-nav">
+                    <a href="#about">About</a>
+                    <a href="#systems">Systems</a>
+                    <a href="#technology">Technology</a>
+                    <a href="warranty.html">Warranty</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+                <div class="footer-copy">
+                    <p>&copy; 2025 TrueBlue Solutions</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

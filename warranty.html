@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warranty — TrueBlue Solutions</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=League+Spartan:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        .warranty-page {
+            padding: 160px 0 80px;
+            min-height: 100vh;
+        }
+        .warranty-header {
+            margin-bottom: 60px;
+        }
+        .warranty-header h1 {
+            font-family: var(--font-display);
+            font-size: clamp(40px, 8vw, 80px);
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+        .warranty-header p {
+            font-size: 16px;
+            color: var(--gray);
+            max-width: 600px;
+        }
+        .warranty-section {
+            margin-bottom: 60px;
+            padding-bottom: 60px;
+            border-bottom: 1px solid rgba(0,119,182,0.15);
+        }
+        .warranty-section:last-child {
+            border-bottom: none;
+        }
+        .warranty-section h2 {
+            font-family: var(--font-display);
+            font-size: clamp(24px, 4vw, 36px);
+            text-transform: uppercase;
+            margin-bottom: 30px;
+            color: var(--blue-light);
+        }
+        .warranty-section h3 {
+            font-family: var(--font-display);
+            font-size: 20px;
+            text-transform: uppercase;
+            margin: 30px 0 15px;
+            color: var(--white);
+        }
+        .warranty-section p {
+            font-size: 15px;
+            color: var(--gray-light);
+            line-height: 1.8;
+            margin-bottom: 15px;
+            max-width: 800px;
+        }
+        .warranty-section ul {
+            list-style: none;
+            margin: 20px 0;
+        }
+        .warranty-section ul li {
+            font-size: 15px;
+            color: var(--gray-light);
+            line-height: 1.8;
+            margin-bottom: 12px;
+            padding-left: 20px;
+            position: relative;
+        }
+        .warranty-section ul li::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 10px;
+            width: 6px;
+            height: 6px;
+            background: var(--blue);
+            border-radius: 50%;
+        }
+        .warranty-table {
+            width: 100%;
+            max-width: 600px;
+            margin: 30px 0;
+            border-collapse: collapse;
+        }
+        .warranty-table th,
+        .warranty-table td {
+            text-align: left;
+            padding: 15px 20px;
+            border-bottom: 1px solid rgba(0,119,182,0.15);
+        }
+        .warranty-table th {
+            font-family: var(--font-display);
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--gray);
+        }
+        .warranty-table td {
+            font-size: 15px;
+            color: var(--cream);
+        }
+        .warranty-table td:last-child {
+            color: var(--blue-light);
+            font-weight: 600;
+        }
+        .disclaimer {
+            background: rgba(0,119,182,0.05);
+            border: 1px solid rgba(0,119,182,0.15);
+            border-radius: 8px;
+            padding: 30px;
+            margin-top: 40px;
+        }
+        .disclaimer p {
+            font-size: 13px;
+            color: var(--gray);
+            line-height: 1.8;
+            text-transform: uppercase;
+            letter-spacing: 0.02em;
+        }
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 14px;
+            color: var(--blue-light);
+            text-decoration: none;
+            margin-bottom: 40px;
+            transition: gap 0.3s var(--ease);
+        }
+        .back-link:hover {
+            gap: 15px;
+        }
+        .back-link svg {
+            transform: rotate(180deg);
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-inner">
+            <a href="index.html" class="nav-logo">TrueBlue</a>
+            <div class="nav-time" id="nav-time"></div>
+            <ul class="nav-menu">
+                <li><a href="index.html#about" data-underline>About</a></li>
+                <li><a href="index.html#systems" data-underline>Systems</a></li>
+                <li><a href="index.html#technology" data-underline>Technology</a></li>
+                <li><a href="warranty.html" data-underline>Warranty</a></li>
+                <li><a href="index.html#contact" data-underline>Contact</a></li>
+            </ul>
+            <button class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <main class="warranty-page">
+        <div class="container">
+            <a href="index.html" class="back-link">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <path d="M1 8H15M15 8L8 1M15 8L8 15" stroke="currentColor" stroke-width="1.5"/>
+                </svg>
+                Back to Home
+            </a>
+
+            <div class="warranty-header">
+                <h1>TrueBlue Warranty</h1>
+                <p>We stand behind the quality and craftsmanship of every water treatment system we install. Our comprehensive warranty gives you peace of mind for years to come.</p>
+            </div>
+
+            <!-- Section 1: TrueBlue Lifetime Warranty -->
+            <div class="warranty-section">
+                <h2>Section 1: TrueBlue Lifetime Warranty</h2>
+                <p>At TrueBlue Solutions, we take pride in the quality and craftsmanship of our water treatment systems. The following limited warranties apply to the original purchaser of each system:</p>
+
+                <h3>Coverage</h3>
+                <ul>
+                    <li><strong>Lifetime Warranty — System Dry Parts:</strong> Covers all mechanical and non-consumable components that do not come into direct contact with water.</li>
+                    <li><strong>5-Year Warranty — Control Valve, Circuit Board, and Filtration Media:</strong> Protects against defects in materials and workmanship under normal operating conditions.</li>
+                    <li><strong>1-Year Warranty — Labor:</strong> Covers labor-related issues arising from the original installation for a period of one year from the date of purchase.</li>
+                </ul>
+
+                <h3>Warranty Conditions & Limitations</h3>
+                <ul>
+                    <li>Coverage is valid only when the system is installed, operated, and maintained according to TrueBlue Solutions guidelines.</li>
+                    <li>The warranty excludes damages caused by improper installation, misuse, neglect, unauthorized modifications, or environmental factors such as flooding, freezing, or excessive contaminant levels beyond system specifications.</li>
+                    <li>Replacement parts or services rendered under this warranty do not extend or reset the original warranty period.</li>
+                    <li>This warranty is the exclusive remedy and supersedes all other warranties—express or implied—including warranties of merchantability and fitness for a particular purpose.</li>
+                    <li>TrueBlue Solutions is only responsible for damages or failures resulting from workmanship-related issues. TrueBlue Solutions is not responsible for any damages caused by manufacturer defects.</li>
+                    <li>TrueBlue Solutions' total liability is strictly limited to the original purchase price of the system. We are not liable for any incidental, consequential, or indirect damages.</li>
+                </ul>
+
+                <p>To file a claim, please contact TrueBlue Solutions Customer Support and provide proof of purchase along with installation documentation.</p>
+            </div>
+
+            <!-- Section 2: Manufacturer Warranty -->
+            <div class="warranty-section">
+                <h2>Section 2: Manufacturer Warranty</h2>
+                <p>TrueBlue Solutions also provides a manufacturer-backed warranty for specific system components, covering defects in materials and workmanship under normal use and conditions:</p>
+
+                <table class="warranty-table">
+                    <thead>
+                        <tr>
+                            <th>Component / Product</th>
+                            <th>Warranty Period</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Control Valves</td>
+                            <td>5 Years</td>
+                        </tr>
+                        <tr>
+                            <td>Storage Tanks</td>
+                            <td>Lifetime</td>
+                        </tr>
+                        <tr>
+                            <td>Media Tanks</td>
+                            <td>Lifetime</td>
+                        </tr>
+                        <tr>
+                            <td>Ceramic Discs (Rotary Valves)</td>
+                            <td>Lifetime</td>
+                        </tr>
+                        <tr>
+                            <td>Reverse Osmosis Systems</td>
+                            <td>1 Year</td>
+                        </tr>
+                        <tr>
+                            <td>Filtration Media</td>
+                            <td>5 Years</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h3>Important Notes</h3>
+                <ul>
+                    <li>Replacement parts are covered only for the remainder of the original warranty period and must be installed by a TrueBlue Solutions-approved technician.</li>
+                    <li>Labor associated with component replacement is not included.</li>
+                </ul>
+
+                <h3>Exclusions</h3>
+                <p>This warranty does not apply to damages caused by:</p>
+                <ul>
+                    <li>Misuse, abuse, neglect, or accidents</li>
+                    <li>Improper installation or unauthorized repairs</li>
+                    <li>Acts of nature</li>
+                    <li>Water conditions that foul filters, resins, or membranes</li>
+                </ul>
+
+                <h3>Warranty Claim Requirements</h3>
+                <p>To process a claim, the following must be provided:</p>
+                <ul>
+                    <li>Valid proof of purchase</li>
+                    <li>Installation documentation</li>
+                    <li>Return authorization number issued by TrueBlue Solutions</li>
+                </ul>
+
+                <div class="disclaimer">
+                    <p>This warranty is exclusive and provided in place of all other warranties, express or implied, including any implied warranties of merchantability or fitness for a particular purpose. TrueBlue Solutions is not liable for incidental or consequential damages exceeding the cost of the product itself.</p>
+                </div>
+            </div>
+
+            <!-- Contact for Claims -->
+            <div class="warranty-section">
+                <h2>File a Warranty Claim</h2>
+                <p>Need to file a claim or have questions about your warranty coverage? Our customer support team is here to help.</p>
+                <div style="margin-top: 30px;">
+                    <a href="mailto:warranty@trueblue.solutions" class="btn-primary">
+                        <span class="btn-text">Contact Support</span>
+                        <span class="btn-text-hover">warranty@trueblue.solutions</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-brand">
+                    <span class="footer-logo">TrueBlue</span>
+                    <p>Premium water filtration systems.<br>Made in the USA.</p>
+                </div>
+                <nav class="footer-nav">
+                    <a href="index.html#about">About</a>
+                    <a href="index.html#systems">Systems</a>
+                    <a href="index.html#technology">Technology</a>
+                    <a href="warranty.html">Warranty</a>
+                    <a href="index.html#contact">Contact</a>
+                </nav>
+                <div class="footer-copy">
+                    <p>&copy; 2025 TrueBlue Solutions</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Time display
+        function updateTime() {
+            const timeEl = document.getElementById('nav-time');
+            if (timeEl) {
+                const now = new Date();
+                const options = {
+                    hour: '2-digit',
+                    minute: '2-digit',
+                    timeZone: 'America/Chicago',
+                    hour12: false
+                };
+                timeEl.textContent = now.toLocaleTimeString('en-US', options) + ' CST';
+            }
+        }
+        updateTime();
+        setInterval(updateTime, 1000);
+
+        // Mobile nav toggle
+        const navToggle = document.getElementById('nav-toggle');
+        const navMenu = document.querySelector('.nav-menu');
+        if (navToggle && navMenu) {
+            navToggle.addEventListener('click', () => {
+                navMenu.classList.toggle('active');
+                navToggle.classList.toggle('active');
+            });
+        }
+    </script>
+</body>
+</html>
